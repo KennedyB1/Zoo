@@ -9,9 +9,9 @@ export const Animals = () => {
     const [animal, setAnimal] = useState<IAnimal[]>([]);
 
     useEffect(() => {
-        const getData = async () => {
+        const fetchData = async () => {
             try {
-                const response = await axios.get<IAnimal[]>('/src/animalsData/animals.json');
+                const response = await axios.get<IAnimal[]>('/animalsData/animals.json');
                 const animalsData = response.data;
                 setAnimal(animalsData);
             } catch (error) {
@@ -19,7 +19,7 @@ export const Animals = () => {
             }
         };
 
-        getData();
+        fetchData();
     }, []);
 
     return (
