@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import { Home } from "./Home";
 import { Layout } from "./Layout";
 import { Error } from "./Error";
-import { Animal } from "./animal";
+import { Animal } from "./Animal";
 import { Animals } from "./Animals";
 
 
