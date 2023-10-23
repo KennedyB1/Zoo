@@ -3,62 +3,53 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  
 }
 
-.animals ul{
+.animals ul {
   list-style-type: none;
   padding: 0;
-  
 }
 
-.animals li{
-
+.animals li {
   border: 2px solid white;
   margin-bottom: 10px;
-  
 }
 
-.animals, h2, h3 {
+.animals,
+h2,
+h3 {
   color: white;
 }
 
-.animalImg{
+.animalImg {
   width: 50%;
   height: 50%;
 }
-header{
+header {
   display: flex;
   align-items: center;
   background-color: #f0f0f0;
   width: 100%;
-  margin: 0; 
-  position: fixed; 
-  top: 0; 
-  left: 0; 
-  justify-content: space-between;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: center;
   height: 4rem;
 }
 
-.headerButton{
-background: greenyellow;
-
+.headerButton {
+  background: greenyellow;
 }
 
 main {
-
   margin-top: 4rem;
 }
 
-button{
-
+button {
   cursor: pointer;
 }
 
-
-button:disabled{
-
+button:disabled {
   cursor: not-allowed;
 }
-
-
